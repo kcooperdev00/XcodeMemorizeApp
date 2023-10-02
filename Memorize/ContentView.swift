@@ -12,7 +12,8 @@ struct ContentView: View {
         HStack{
             CardView(isFaceUp: true)
             CardView()
-             CardView()
+            CardView()
+            CardView()
         }
         .foregroundColor(.orange)
         .padding()
